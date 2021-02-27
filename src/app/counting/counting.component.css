@@ -1,0 +1,40 @@
+.Lab {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bolder;
+  color: rgb(202, 165, 64);
+}
+._h1Lab3 {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: blue;
+  margin: auto;
+  width: 40%;
+  border: 3px solid #73ad21;
+  padding: 10px;
+}
+._divLab3 {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bolder;
+  color: green;
+  margin: auto;
+  width: 40%;
+  border: 3px solid #73ad21;
+  padding: 10px;
+}
+
+._buttonLab3 {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: inline;
+}

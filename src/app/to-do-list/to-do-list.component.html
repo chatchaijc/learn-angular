@@ -1,0 +1,14 @@
+<h2 class="todocenter">Home Work 2 and 4</h2>
+<h2>My tasks today</h2>
+
+<form (ngSubmit)="addTask(task.value)">
+  <div>
+    <label for="task">Tasks:</label>
+    <input type="text" #task placeholder="Add your task" />
+  </div>
+</form>
+<ul>
+  <li style="list-style-type: none" *ngFor="let task of tasks; let i = index">
+    {{ i + 1 }}. {{ task }} <button (click)="removeTask(task)">Delete</button>
+  </li>
+</ul>

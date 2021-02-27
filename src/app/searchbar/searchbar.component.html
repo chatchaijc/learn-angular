@@ -1,0 +1,15 @@
+<h2>Search bar</h2>
+<div>
+  <h2 *ngIf="isShow">{{ search }}</h2>
+  <p>
+    Search : <input type="text" [(ngModel)]="search" /><button
+      (click)="showAnswer()"
+    >
+      Search
+    </button>
+
+    <!-- <button (click)="setShow()">Search1</button> -->
+  </p>
+</div>
+<!-- <div *ngIf="resultSerach">รายการที่คุณค้นหามีอยู่ในคลัง</div>
+<div *ngIf="!resultSerach">รายการที่ค้นหาไม่มีอยู่ในคลัง</div> -->

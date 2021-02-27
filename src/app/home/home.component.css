@@ -1,0 +1,11 @@
+.header {
+  color: red;
+}
+
+.home {
+  margin: 0;
+  background-color: #54c03e;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 20px;
+}

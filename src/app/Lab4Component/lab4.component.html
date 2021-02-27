@@ -1,0 +1,8 @@
+<div>Lab4 connected</div>
+<!-- <p>Today is {{ currentDate | date: "dd/MM/yyyy" }}</p> -->
+<ul>
+  <li *ngFor="let num of numbers">
+    <p *ngIf="num % 2 === 0" class="number-odd">{{ num }}</p>
+    <p *ngIf="num % 2 !== 0" class="number-even">{{ num }}</p>
+  </li>
+</ul>

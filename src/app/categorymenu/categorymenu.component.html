@@ -1,0 +1,18 @@
+<h2>Category Menu</h2>
+<div class="categorymenu">
+  <a href="#">รองเท้าผ้าใบ</a>
+  <a href="#">กระเป๋า</a>
+  <a href="#">นาฬิกา</a>
+  <a href="#">เสื้อ</a>
+  <a href="#">กางเกง</a>
+  <a href="#">มือถือ</a>
+</div>
+<button class="btn" [ngClass]="allmyclass" (click)="setAllmyClass()">
+  change color
+</button>
+
+<ul>
+  <li *ngFor="let mobile of mobiles">
+    {{ mobile | uppercase }}
+  </li>
+</ul>

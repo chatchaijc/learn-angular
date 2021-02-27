@@ -1,0 +1,42 @@
+/* Style the top navigation bar */
+h2 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  background-color: rgb(157, 184, 108);
+  text-align: center;
+}
+.categorymenu {
+  overflow: hidden;
+  background-color: rgb(157, 184, 108);
+}
+
+/* Style the topnav links */
+.categorymenu a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.categorymenu a:hover {
+  background-color: #ddd;
+  color: rgb(47, 168, 83);
+}
+
+.btn {
+  background-color: rgb(136, 31, 206);
+}
+.btn-success {
+  background-color: green;
+}
+
+.btn-info {
+  background-color: yellow;
+}
+
+.btn-danger {
+  background-color: red;
+}
